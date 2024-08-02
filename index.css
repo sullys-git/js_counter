@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    background: #1D1915;
+    text-shadow: 0px 0px 5px #343434d0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 0;
+    padding-top: 30px;
+
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 200px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+
+}
+
+.container {
+    width: 600px;
+    border: 1px solid black;
+    /* padding: 100px; */
+    text-align: center;
+    background: url("/tourists.png");
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    background-color: #34343480;
+}
+
+#count-display {
+    display: inline-block;
+    font-size: 60px;
+    text-shadow: 0px 0px 5px #343434d0;
+    margin: 30px 0;
+}
+
+.btns {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-size: 20px;
+    margin: 0 auto;
+    width: 40%;
+    /* display: block; */
+    padding: 10px 19px;
+    border: none;
+    border-radius: 4.6px;
+    background-color: whitesmoke;
+    color: #1D1915
+}
+
+button:hover {
+    background-color: #1d1915b6;
+    color: whitesmoke;
+    
+}
+
